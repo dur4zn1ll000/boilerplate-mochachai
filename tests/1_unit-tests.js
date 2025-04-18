@@ -11,9 +11,9 @@ suite('Unit Tests', function () {
     // #2
     // let me see if this is correctly commited
     test('#isDefined, #isUndefined', function () {
-      assert.fail(null, 'null is not undefined');
-      assert.fail(undefined, 'undefined IS undefined');
-      assert.fail('hello', 'A string is not undefined');
+      assert.isUndefined(null, 'null is not undefined');
+      assert.isDefined(undefined, 'undefined IS undefined');
+      assert.isUndefined('hello', 'A string is not undefined');
     });
     // #3
     test('#isOk, #isNotOk', function () {
