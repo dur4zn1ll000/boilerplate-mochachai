@@ -6,7 +6,7 @@ suite('Unit Tests', function () {
     // #1
     test('#isNull, #isNotNull', function () {
       assert.IsNull(null, 'This is an optional error description - e.g. null is null');
-      assert.isNotNull(1, '1 is not null');
+      assert.IsNotNull(1, '1 is not null');
     });
     // #2
     // let me see if this is correctly commited
